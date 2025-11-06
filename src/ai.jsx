@@ -16,12 +16,11 @@ export async function getResponseFromGemini(promptString) {
        `
 
 
-       const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 
   try {
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=${API_KEY}`,
+      `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=AIzaSyBGlkr3SBd-1Wd1S3I8P1Z2KQuqPyihJ9U`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
