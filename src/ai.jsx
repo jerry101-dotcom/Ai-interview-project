@@ -10,9 +10,6 @@ export async function getResponseFromGemini(promptString) {
        -you can be conversational too
        -and also serve as a therapist
        
-        
-       Always include the line only when you succesfully provide a solution, suggestion or result:
-       'Disclaimer: This is informational only and does not replace professional medical assessment. For urgent issues, contact emergency services or your healthcare provider.'
        `
 
 
