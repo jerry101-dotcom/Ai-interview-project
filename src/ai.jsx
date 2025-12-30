@@ -17,7 +17,7 @@ export async function getResponseFromGemini(promptString) {
 
   try {
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=AIzaSyBkIqI6cq44bpdKhzjYt7ZeEpGXUngZioM`,
+      `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=AIzaSyDUDmHy5__mIYJrECeod1mehV-2xJCQHEg`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
